@@ -34,6 +34,7 @@ blossom = HashMap(len(flower_definitions))
 for element in flower_definitions:
   blossom.assign(element[0], element[1])
 
-print(blossom.retrieve('sunflower'))
+flower = input("Enter a flower: ")
+print(blossom.retrieve(flower))
 
   
